@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Css/Home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <div class="navbars">
+        <ul class="nav" style="margin-left: 900px;">
+            <li class="nav-item">
+                <img src="/Images/logo1.jpeg" class="logo1">
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"
+                    style="background-color: white;border-color: white;color: black;">Others
+                    <div class="dro"></div>
+                    <hr class="h">
+                </button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <div class="text1">
+                            <input type="text" class="text1" placeholder="Search for area , street....">
+                        </div><br>
+                        <div class="loc">
+                        <button type="button" class="bt1"><b>Get Current Location</b><br>Using Gps</button>
+                        <div class="gps">
+                            <div class="circ">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="l1"></div>
+                            <div class="l2"></div>
+                            <div class="l3"></div>
+                            <div class="l4"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item search">
+                <a class="nav-link" aria-current="page" href="#">Search</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16" style="margin-top: -66px;margin-left: -10px;">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </li>
+            <li class="nav-item offers">
+                <a class="nav-link" href="#">Offers</a>
+            </li>
+            <li class="nav-item help">
+                <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item signin">
+                <a class="nav-link">Sign In</a>
+            </li>
+            <li class="nav-item cart">
+                <a class="nav-link">Cart</a>
+            </li>
+        </ul>
+    </div>
+    <div class="section1">
+        <h3>Restaurants with online food delivery in Chhindwara</h3>
+        <div class="filter">
+            <div class="butt"><button type="button" class="butt">Filter</button></div>
+            <div class="butt"><button type="button" class="butt">Sort By</button></div>
+            <div class="butt"><button type="button" class="butt">Fast Delivery</button></div>
+            <div class="butt"><button type="button" class="butt">Rating 4.0+</button></div>
+            <div class="butt"><button type="button" class="butt"> Pure Veg</button></div>
+            <div class="butt"><button type="button" class="butt">Offers</button></div>
+            <div class="butt"><button type="button" class="butt">Rs.300-Rs.600</button></div>
+            <div class="butt"><button type="button" class="butt">Less than 300</button></div>
+        </div>
+        <div class="Restaurants">
+            <table>
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/annuskitchen.avif" class="rest">
+                                <h6>Annu's Kitchen's Queen Of Paratha</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/indiancoffee.avif" class="rest">
+                                <h6>Indian Coffee House</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/chatori food.avif" class="rest">
+                                <h6>Chatori Food Junction</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>Pizzas, Chinese</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/deccan dosa.avif" class="rest">
+                                <h6>Deccan Dosa</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/new radhey.avif" class="rest">
+                                <h6>New Radhey Shyam Choudari</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/ttc.avif" class="rest">
+                                <h6>TTC Cafe</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/thefusion.avif" class="rest">
+                                <h6>The Fusion Lounge</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/momia.avif" class="rest">
+                                <h6>Momomia Love In Every Bite</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/theparathahouse.avif" class="rest">
+                                <h6>The Paratha House
+                                </h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/shrijinamkeen.avif" class="rest">
+                                <h6>Shriji Namkeen</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/jaiganesh.avif" class="rest">
+                                <h6>Jai Ganesh Bojnalaya</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/the veglegacy.avif" class="rest">
+                                <h6>The Veg Legacy</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/sainath.avif" class="rest">
+                                <h6>Hotel Sai Nath & Sai Restaurant</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/accordinter.avif" class="rest">
+                                <h6>Accord International</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/freshmeals.avif" class="rest">
+                                <h6>Fresh Meal's</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imagecard">
+                                <img src="/Images/Richtable.avif" class="rest">
+                                <h6>Rich Table Restaurant N Cafe</h6>
+                                <h6>4.4 • 65-70 mins</h6>
+                                <p>North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts</p>
+                                <p>Chhindwara City</p>
+                                <p></p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="line">
+        </div>
+    </div>
+    <hr class="line1">
+    <div class="section2"><br>
+        <h3>Best Places to Eat Across Cities</h5>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+               <button type="button" class="bt">Best Restaurants in Bangalore</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" class="bt">
+                    Best Restaurants in Pune</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" class="bt">Best Restaurants in Mumbai</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" class="bt">Best Restaurants in Delhi</button>
+              </div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm">
+                 <button type="button" class="bt">Best Restaurants in Hyderabad</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">
+                    Best Restaurants in Kolkata
+                </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Best Restaurants in Chennai</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Best Restaurants in Chandigarh</button>
+                </div>
+              </div><br>
+              <div class="row">
+                <div class="col-sm">
+                 <button type="button" class="bt">PBest Restaurants in Ahmedabad</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Best Restaurants in Jaipur
+                </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Best Restaurants in Nagpur</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Show More</button>
+                </div>
+              </div>
+          </div><br>
+          <h3>Best Places to Eat Across Cities</h5>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+               <button type="button" class="bt">Chinese Restaurant Near Me</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" class="bt">
+                    South Indian Restaurant Near Me</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" class="bt">Indian Restaurant Near Me</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" class="bt">Kerala Restaurant Near Me</button>
+              </div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm">
+                 <button type="button" class="bt">Korean Restaurant Near Me</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">
+                      North Indian Restaurant Near Me</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Seafood Indian Restaurant Near Me</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Bengali Restaurant Near Me</button>
+                </div>
+              </div><br>
+              <div class="row">
+                <div class="col-sm">
+                 <button type="button" class="bt">Punjabi Restaurant Near Me</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Italian Restaurant Near Me</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Andhra Restaurant Near Me</button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="bt">Show More</button>
+                </div>
+              </div>
+          </div><br>
+          <h3>Explore Every Restaurants Near Me</h3><br>
+    </div>
+    
+    <div class="section3">
+        <div class="btn1">
+            <button type="button" class="btn1">Explore Restaurants Near Me</button>
+        </div>
+        <div class="btn1">
+            <button type="button" class="btn1">Explore Top Rated Restaurants Near Me</button>
+        </div>
+    </div>
+    <div class="section4"><br><br>
+        <h2>For better experience,download<br>the Swiggy app now</h2>
+        <div class="play">
+            <img src="/Images/play_store.avif" class="store">
+        </div>
+        <div class="store">
+            <img src="/Images/app_store.avif" class="store">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container"><br>
+            <div class="row">
+              <div class="col-sm">
+                <img src="/Images/swiggy.png" class="swig"><h4 style="margin-top: -30px;margin-left: 30px;">Swiggy</h4>
+                © 2023 Bundl Technologies <br>Pvt. Ltd
+              </div>
+                <div class="col-sm">
+                   <h4> Company</h4>
+                    About<br>
+                    Careers<br>
+                    Team<br>
+                    Swiggy One<br>
+                    Swiggy Instamart<br>
+                    Swiggy Genie
+                </div>
+                <div class="col-sm">
+                   <h4>Contact us</h4>
+                    Help & Support<br>
+                    Partner with us<br>
+                    Ride with us<br>
+                    Legal<br>
+                    Terms & Conditions<br>
+                    Cookie Policy<br>
+                    Privacy Policy<br>
+                </div>
+                <div class="col-sm">
+                    <h4>We deliver to:</h4>
+                    Bangalore<br>
+                    Gurgaon<br>
+                    Hyderabad<br>
+                    Delhi<br>
+                    Mumbai<br>
+                    Pune<br>
+                </div>
+              </div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
